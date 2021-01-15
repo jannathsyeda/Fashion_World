@@ -1,0 +1,88 @@
+
+.buy-now-button{
+    background-image: linear-gradient(to bottom, #9BB438 0%, #9BB438 100%);
+    color:white;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+    width:150px;
+    height:65px;
+}
+.buy-now-button2{
+    background-image: linear-gradient(to bottom, #9BB438 0%, #9BB438 100%);
+    color:white;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+    width:120px;
+    height:40px;
+    
+}
+.service-left img{
+   
+    display: flex;
+    align-items: center;
+
+width:50px;
+}
+.services{
+    place-items: center;
+
+    display: grid;
+    grid-gap:30px;
+    margin-top: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    box-shadow: 5px 1px 400px #888888;
+justify-content: center;
+
+width: 400px;
+    
+}
+
+.main-service-right img{
+    width:550px;
+}
+.ser{
+    margin-top:200px
+}
+.service{
+    display:flex;
+    background-color:white;
+    align-items: center;
+    margin: 18px;
+    height: 115px;
+    box-shadow: 20px 10px 40px whitesmoke;
+    
+}
+.service img{
+    width: 100px;
+}
+
+.top-service{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-top:50px;
+    box-shadow: 5px 10px 20px tomato;
+    padding:60px;
+}
+
+.weekly_deals{
+    margin-top:100px ;
+    margin-bottom:100px;
+}
+@media (max-width:600px) {
+    .top-service{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+        margin-top:50px;
+        box-shadow: 5px 10px 20px tomato;
+        padding:60px;
+    }
+    .main-service-right img{
+        width:350px;
+    }
+}
